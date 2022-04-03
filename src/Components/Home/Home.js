@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import './Home.css'
 import cover from '../../img/cover.png'
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
+
+// export const ReviewContext = createContext([reviews, setReviews])//-----------------
 
 const Home = () => {
     const [reviews, setReviews] = useReviews();
@@ -27,7 +29,8 @@ const Home = () => {
                             key={review.id}
                             review={review}
                         >
-                        </Review>)
+                        </Review>
+                        )
                     }
                 </div>
                 <a href="/reviews">See All Reviews</a>
