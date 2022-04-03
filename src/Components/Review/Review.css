@@ -1,0 +1,9 @@
+.review-details img{
+    height: 300px;
+    width: 220px;
+}
+.review-details{
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+}
