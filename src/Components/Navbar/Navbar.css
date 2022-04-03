@@ -1,0 +1,17 @@
+nav{
+    padding: 15px 0;
+}
+.nav-link a{
+    text-decoration: none;
+    color: #000000;
+    size: 17px;
+    margin-left: 36px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    font-weight: 700;
+    border-bottom: 3px solid rgb(178, 176, 176);
+}
+.nav-link a:hover{
+    color: rgb(220, 43, 43);
+    border-color: rgb(220, 43, 43);
+}

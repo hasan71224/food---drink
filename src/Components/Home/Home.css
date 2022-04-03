@@ -1,0 +1,33 @@
+.home-container{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+.home-details{
+    width: 70%;
+}
+.home-details h1{
+    font-size: 70px;
+    font-weight: 800;
+    color: rgba(72, 37, 201, 0.874);
+}
+.home-details p{
+    font-size: 20px;
+    color: rgb(91, 204, 204);
+}
+.home-details button{
+    padding:7px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:rgba(154, 143, 193, 0.874);
+    color:rgb(0, 0, 0);
+}
+.home-details button:hover{
+    background-color: blue;
+    color: white;
+}
+.home-img img{
+    height: 550px;
+    width: 300px;
+    margin-top: 10px;
+}
