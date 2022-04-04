@@ -16,7 +16,7 @@ const Blogs = () => {
                 </p>
             </div>
             <div className='inline-block blog'>
-                <h2>what is the difference between inline block and an inline block element?</h2>
+                <h2>What is the difference between inline block and an inline block element?</h2>
                 <p>inline The element doesn't start on a new line and only occupy just the width it requires. You can't set the width or height. inline-block It's formatted just like the inline element, where it doesn't start on a new line. BUT, you can set width and height values.
                 inline, the major difference is that display: inline-block allows to set a width and height on the element.
                 Also, with display: inline-block , the top and bottom margins/paddings are respected, but with display: inline they are not.
