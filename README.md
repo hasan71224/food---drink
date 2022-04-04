@@ -14,11 +14,11 @@ main section have two part in the left part have product details and right site 
 
 ### `Home page Review option`
 
-In Review section show six customer review with her image, name, rating and feedback.
+In Review section show three customer review with her image, name, rating and feedback.
 
 ### `Review Page`
 
-In review page show customer reviews,  this page connect with review section button and navbar reviews. and data call from review page use Custom hook.
+In review page show customer reviews, Six customer review with her image, name, rating and feedback.  this page connect with review section button and navbar reviews. and data call from review page use Custom hook.
 
 ### `Deshboard page`
 
